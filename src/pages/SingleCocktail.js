@@ -98,10 +98,11 @@ export default function SingleCocktail() {
                 return item ? <span key={index}> {item}</span> : null;
               })}
             </p>
+            <br />
+            <Link to='/' className='btn btn-primary'>
+              back home
+            </Link>
           </div>
-          <Link to='/' className='btn btn-primary'>
-            back home
-          </Link>
         </div>
       </section>
     );
